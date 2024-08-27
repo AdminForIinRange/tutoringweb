@@ -10,7 +10,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: {
-    default: "Luxe Managements",
+    default: "Tutoring Web",
     template: "%s | Next.js 14",
   },
   description: "Top Airbnb Management Company in Adelaide.",
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="RootLayout">
+      <body className="RootLayout"  >
         <ChakraProvider>{children}</ChakraProvider>
         <SpeedInsights />
         <Analytics />
