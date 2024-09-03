@@ -19,8 +19,10 @@ export default function Home() {
         zIndex={"-4"}
         left={0}
         right={0}
-      >
-        <Image src={onePieceOFbackground} alt="BackGround" style={{ filter: "brightness(0)" }} />
+      > 
+
+{/* Light Mode already forced on */}
+        <Image src={onePieceOFbackground} alt="BackGround" style={{ filter: "brightness(0)" }} /> 
         <Image src={onePieceOFbackground} alt="BackGround" style={{ filter: "brightness(0)" }} />
         <Image src={onePieceOFbackground} alt="BackGround" style={{ filter: "brightness(0)" }} />
         <Image src={onePieceOFbackground} alt="BackGround" style={{ filter: "brightness(0)" }} />
